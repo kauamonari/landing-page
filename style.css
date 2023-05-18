@@ -1,125 +1,77 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Open sans", sans-serif;
 }
 
-body{
-  background: #000;
-}
-
-nav {
-  display: flex;
-  gap: 300px;
-  font-weight: bolder;
-  margin-top: 50px;
-  margin-left: 70px;
-}
-
-nav > p {
-  color: #fff;
-  font-size: 40px;
-  font-family: "bebas neue", sans-serif;
-  letter-spacing: 5px;
-}
-
-nav > div > hr {
-  width: 200px;
-  color: #fff;
-
-}
-
-li{
-  cursor: pointer;
-
+body {
+  background: #000000;
 }
 
 ul {
-  
-
-  color: #fff;
-
-  text-transform: uppercase;
-  font-size: 18px;
-  list-style: none;
-  display: flex;
-  gap: 30px;
+  text-decoration: none;
 }
 
-nav img{
-  cursor: pointer;
+.header {
+  display: flex;
 
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.header-menu {
+  color: #ffffff;
+  display: flex;
+  gap: 80px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+li {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.margin-top {
+  margin-top: 40px;
+}
+
+.img {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 105px;
+  text-align: center;
+}
+
+.d {
+  color: #ffffff;
+  font-family: league gothic;
+  letter-spacing: 8px;
+}
+
+.n {
+  margin-bottom: -40px;
+  color: #ff5757;
+  font-family: league gothic;
+  letter-spacing: 8px;
+
+}
+
+.fone {
+  z-index: 3;
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.buy{
   filter: invert(75%);
-}
-
-.main {
-  color: #fff;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 200px;
-  justify-content: center;
-  align-items: center;
-}
-.part-1{
-  margin-top: 200px;
-  grid-column: span 2;
-  margin-left: 60px;
   display: flex;
-  justify-content: start;
-  align-items: start;
-  flex-direction: column;
-  gap: 60px;
-}
-
-
-.part-1 p{
-  font-size: 100px;
-  text-transform: uppercase;
-}
-
-.part-1 button{
-  background: #B0C43A;
-  border: none;
-  padding: 10px 25px 10px 25px;
-  font-size: 25px;
-  text-transform: uppercase;
-  cursor: pointer;
-
-}
-.part-2{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
-.part-2 img{
-  margin-top: 150px;
-  width: 300px;
-  height: 450px;
-}
-
-.part-2 button{
-  color: #fff;
-  font-size: 18px;
-  text-transform: uppercase;
-  border-radius: 30px;
-  padding: 20px 40px 20px 40px;
-  background: transparent;
-  border: 3px solid;
-  cursor: pointer;
-}
-
-.back{
-  z-index: -9999;
-  position: fixed;
-  bottom: 0;
-  margin-left: 25%;
-}
-
-.back img{
-  height: 800px;
+  gap: 20px;
+  height: 20px;
 }
